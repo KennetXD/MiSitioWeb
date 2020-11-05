@@ -1,0 +1,868 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'open sans';
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo{
+    color: rgb(39, 216, 163);
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+header{
+    width: 100%;
+    height: 800px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(244, 93%, 38%, 0.589)), url(../img/Imagenprincipal.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(251, 96%, 21%, 0.658), hsla(246, 94%, 42%, 0.589)), url(../img/Imagenprincipal.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*  header a de one piece */
+header.a{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/dob.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/dob.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*  header a de naruto */
+header.b{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/namuerte.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/namuerte.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*  header a de bleach */
+header.c{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/blmuerte.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/blmuerte.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*  header a de NEON GENESIS */
+header.d{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/nefeliz.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/nefeliz.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*  header a de HUNTER X HUNTER */
+header.e{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/humuerte.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/humuerte.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+/*  header a de FULLMETAL ALCHEMIST */
+header.f{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/fufeliz.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/fufeliz.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+/*  header a de SAMURAI CHAMPLOO */
+header.g{
+    width: 100%;
+    height: 600px;
+    background: #c31432; 
+     /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, hsla(241, 96%, 47%, 0.658), hsla(0, 93%, 49%, 0.589)), url(../img/samuerte.gif);  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(275, 66%, 13%, 0.658), hsla(0, 93%, 40%, 0.589)), url(../img/samuerte.gif); 
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    
+}
+/*  Fin de headers  */
+/*_________________________________*/
+nav.a{
+    
+    text-align: right;
+    padding: 60px 30px 60px 30px;
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    bottom: 50px;
+    
+}
+
+nav.a > a{
+    color:rgb(255, 255, 255);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 0.5cm;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+input{
+   border-color: black;
+   border-radius: 10px;
+
+   position: relative;
+   bottom: 22px;
+   
+}
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+}
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+}
+
+.textos-headerprimero h1{
+    font-size: 50px;
+    color:#fff;
+    text-align: center;
+    background-color: black;
+    margin: 100px 100px 100px 100px;
+    border-radius: 20px;
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* About us */
+
+main .sobre-nosotros{
+    
+    padding: 30px 0 60px 0;
+    
+}
+
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: skyblue;
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+        
+}
+
+.contenedor-sobre-nosotross{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(7, 147, 172);
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+}
+
+.contenedor-sobre-nosotrosss{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+}
+.contenedor-sobre-nosotrossss{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(7, 147, 172);
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+}
+.contenedor-sobre-nosotros-primero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+}
+.contenedor-sobre-nosotros-segundo{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+}
+.contenedor-sobre-nosotros-tercero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(51, 48, 75);
+    border-radius: 40px;
+    margin: 80px 40px 80px 40px;
+    border-color: black;
+    
+    
+
+    
+}
+
+
+.contenedor-sobre-nosotros-cuarto{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: yellow;
+    border-radius: 20px;
+    margin: 100px 100px 100px 100px;
+
+    
+}
+
+.imagen-about-us{
+    width: 38%;
+    border-radius: 10px;
+}
+
+.imagen-about-usprimero{
+    width: 38%;
+    border-radius: 10px;
+    position: relative;
+    right: 37px;
+}
+
+
+.imagen-about-usmision{
+    width: 38%;
+    border-radius: 10px;
+}
+
+.imagen-about-use{
+    width: 38%;
+    border-radius: 10px;
+    
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+}
+
+.contenido-textos h3{
+    padding: 50px 0px 0px 0px;
+    margin-top: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.contenido-textos h3 span{
+    background: #4d0686;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+/*recordar------------------------------ p*/
+.contenido-textos p{
+    padding: 20px 0px 0px 0px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+.contenedor-nosotrosmasprimero{
+    color: Black;
+    background-color: white;
+  
+    border-radius: 20px;
+    width: 80%;
+    background-position-x: right;
+    margin-right: auto;
+    margin-left: auto;
+    
+
+}
+
+.contacto-datos-necesarios{
+    border: solid 5px White;
+    border-radius: 20px;
+    background-color: rgb(79, 99, 212);
+    color: Black;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    
+}
+
+
+  
+  /* video detras de la pagina*/
+
+  video.w{
+      position:fixed;
+      min-width: 100%;
+      min-height: 100%;
+    
+      top: 50%;
+      left: 50%;
+
+      transform: translateX(-50%) translateY(-50%);
+
+      z-index: -1;
+   }   
+
+  
+   /* EL MEJOR BOTON    */
+
+   .btn-neon{
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2;
+   }
+   .btn-neon:hover{
+       background: #a945c7;
+       box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+       transition-delay: 0.4s;
+   }
+   .btn-neon span{
+       position: absolute;
+       display: block;
+   }
+
+   #span1{
+       top: 0;
+       left: -100%;
+       width: 100%;
+       height: 10px;
+       background: linear-gradient(90deg,transparent,#a945c7);
+   }
+   .btn-neon:hover #span1{
+       left: 100%;
+       transition: 0.5s;    
+   }
+   #span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 10px;
+    background: linear-gradient(270deg,transparent,#a945c7);
+    }
+    .btn-neon:hover #span3{
+    right: 100%;
+    transition: 0.5s;    
+    }
+
+    /* boton de titulo  */
+    .neon{
+        position: relative;
+        display: inline-block;
+        padding: 15px 30px;
+        color: #fff;
+        letter-spacing: 4px;
+        font-size: 24px;
+        text-decoration: solid;
+        overflow: hidden;
+        transition: 0;
+        background-color: black;
+        border-radius: 10px;
+       }
+       .neon:hover{
+           background: #a945c7;
+           box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+           transition-delay: 0s;
+       }
+       .neon span{
+           position: absolute;
+           display: block;
+       }
+    
+       #spa1{
+           top: 0;
+           left: -100%;
+           width: 100%;
+           height: 10px;
+           background: linear-gradient(90deg,transparent,#a945c7);
+       }
+       .neon:hover #spa1{
+           left: 100%;
+           transition: 0.5s;    
+       }
+       #spa3{
+        bottom: 0;
+        right: -100%;
+        width: 100%;
+        height: 10px;
+        background: linear-gradient(270deg,transparent,#a945c7);
+        }
+        .neon:hover #spa3{
+        right: 100%;
+        transition: 0.5s;    
+        }
+
+ 
+    /* estilo de slider -s-d-sd-s-d-sd   */
+
+    .contenedo{
+        width: 80%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50px;
+    }
+    
+    .slider-contenedor{
+        width: 100%;
+        display: flex;
+    }
+    
+    .contenido-slider{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-shrink: 0;
+    }
+    
+    .contenido-slider > img{
+        width: 100%;
+    }
+
+    @media screen and (max-width:900px){
+        .contenido-slider > img{
+            width: 100%;
+        }
+  
+    }
+
+    /* fin de slider -------*/
+
+    /*   */
+    .sobre-nosotr .contenido-texto{
+        width: 60%;
+    }
+    
+    .contenido-texto h3{
+        margin-bottom: 15px;
+    }
+    .contenido-texto h3 span{
+        background: #4d0686;
+        color: #fff;
+        border-radius: 50%;
+        display: inline-block;
+        text-align: center;
+        width: 30px;
+        height: 30px;
+        padding: 2px;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+        margin-right: 5px;
+    }
+    
+    .contenido-texto p{
+        padding: 0px 0px 30px 15px;
+        font-weight: 300;
+        text-align: justify;
+    }
+
+/*
+    .video.a{
+        padding-top: 20px;
+        width: 50%;
+        margin: auto;
+        display: block;
+    }
+  */  
+  
+
+@media screen and (max-width:500px){
+    nav{
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+
+    nav > a{
+        margin-right: 5px;
+    }
+
+    .textos-header h1{
+        font-size: 35px;
+    }
+
+    .textos-header h2{
+        font-size: 20px;
+    }
+
+    /* ABOUT US */
+
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+
+    /* Galeria */
+
+    .imagen-port{
+        width: 95%;
+    }
+
+    /* Clients */
+
+    .cards .card{
+        height: 450px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card img{
+        width: 90px;
+        height: 90px;
+    }
+
+    /* Footer */
+
+    .contenedor-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .content-foo h4{
+        border: none;
+    }
+
+    .content-foo p{
+        color: #ccc;
+        border-bottom: 1px solid #f2f2f2;
+        padding-bottom: 20px;
+    }
+
+    .titulo-final{
+        font-size: 20px;
+    }
+    h2.cosa{
+        text-align: center;
+    }
+}
+
+
+/* footer */
+
+
+footer{
+    background-color: white;
+    background-image: url(/proyecto/imgp/neonneon.jpg);
+    background-size: 50px 50px 150px 50px;
+    padding: 30px ;
+    background-repeat: repeat-x;
+    text-align: center;
+    
+    
+}
+p.derechos{
+    font-size: 1.5em;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+
+    
+}
+
+
+
+html {
+    font-family: 'Montserrat', Arial, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+  
+  body {
+    background: #F2F3EB;
+  }
+  
+  button {
+    overflow: visible;
+  }
+  
+  button, select {
+    text-transform: none;
+  }
+  
+  button, input, select, textarea {
+    color: #5A5A5A;
+    font: inherit;
+    margin: 0;
+  }
+  
+  input {
+    line-height: normal;
+  }
+  
+  textarea {
+    overflow: auto;
+  }
+  
+  #container {
+    border: solid 3px White;
+    max-width: 768px;
+    margin: 60px auto;
+    position: relative;
+    background-color: rgb(37, 34, 34);
+  }
+  
+  form {
+    padding: 37.5px;
+    margin: 50px 0;
+  }
+  
+  h1 {
+    color: #e91d0f;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  
+  
+  .icon_wrapper {
+    margin: 50px auto 0;
+    width: 100%;
+  }
+  
+  .icon {
+    display: block;
+    fill: #fffefe;
+    height: 50px;
+    margin: 0 auto;
+    width: 1px;
+  }
+  
+  .email {
+      float: right;
+      width: 45%;
+  }
+  
+  input[type='text'], [type='email'], select, textarea {
+      background: none;
+    border: none;
+      border-bottom: solid 2px #685e5e;
+      color: #b6a8a8;
+      font-size: 1.000em;
+    font-weight: 400;
+    letter-spacing: 1px;
+      margin: 0em 0 1.875em 0;
+      padding: 0 0 0.875em 0;
+    text-transform: uppercase;
+      width: 100%;
+      
+  }
+  
+  input[type='text']:focus, [type='email']:focus, textarea:focus {
+      outline: none;
+      padding: 0 0 0.875em 0;
+  }
+  
+  .message {
+      float: none;
+  }
+  
+  .name {
+      float: left;
+      width: 45%;
+  }
+  
+  select {
+    background: url('https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-ios7-arrow-down-32.png') no-repeat right;
+    outline: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  .subject {
+    width: 100%;
+  }
+  
+  .telephone {
+    width: 100%;
+  }
+  
+  textarea {
+      line-height: 150%;
+      height: 150px;
+      resize: none;
+    width: 100%;
+  }
+  
+  ::-webkit-input-placeholder {
+      color: #ffffff;
+  }
+  
+  :-moz-placeholder { 
+      color: #ffffff;
+      opacity: 1;
+  }
+  
+  ::-moz-placeholder {
+      color: #ffffff;
+      opacity: 1;
+  }
+  
+  :-ms-input-placeholder {
+      color: #ffffff;
+  }
+  
+  #form_button {
+    background: none;
+    border: solid 2px #ffffff;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 0.875em;
+    font-weight: bold;
+    outline: none;
+    padding: 20px 35px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s;
+      transition: all 0.3s;
+  }
+  
+  #form_button:hover {
+    background: #f5f5f5;
+    color: #F2F3EB;
+  }
+  
+  @media screen and (max-width: 768px) {
+    #container {
+      margin: 20px auto;
+      width: 95%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 26px;
+    }
+    
+    .underline {
+      width: 68px;
+    }
+    
+    #form_button {
+      padding: 15px 25px;
+    }
+  }
+  
+  @media screen and (max-width: 420px) {
+    h1 {
+      font-size: 18px;
+    }
+    
+    .icon {
+      height: 35px;
+      width: 35px;
+    }
+    
+    .underline {
+      width: 53px;
+    }
+    
+    input[type='text'], [type='email'], select, textarea {
+      font-size: 0.875em;
+    }
+  }
+
+
