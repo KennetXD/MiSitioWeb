@@ -630,19 +630,9 @@ main .sobre-nosotros{
 }
 
 
-/* footer */
 
 
-footer{
-    background-color: white;
-    background-image: url(/proyecto/imgp/neonneon.jpg);
-    background-size: 50px 50px 150px 50px;
-    padding: 30px ;
-    background-repeat: repeat-x;
-    text-align: center;
-    
-    
-}
+
 p.derechos{
     font-size: 1.5em;
     font-style: italic;
@@ -866,3 +856,12 @@ html {
   }
 
 
+/* footer */
+
+footer{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;   
+}
